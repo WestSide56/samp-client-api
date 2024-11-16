@@ -6,5 +6,6 @@ edition = "2018"
 
 [dependencies]
 winapi = { version = "0.3.8", features = ["d3d9", "libloaderapi", "winuser", "winver"] }
-retour = "0.1.0"
+#retour = "0.1.0"
+retour = { git = "https://github.com/Hpmason/retour-rs" }
 log = "0.4.14"
